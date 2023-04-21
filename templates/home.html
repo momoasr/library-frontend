@@ -1,26 +1,7 @@
-<!doctype html>
-<html>
-<head>
-<title>Registration</title>
-<link rel="stylesheet" href="/static/style.css">
-</head>
-<body>
-
-    <nav>
-        <div class="wrapper">
-            <ul>
-                <li><a href="{{url_for('home')}}">Home</a></li>
-                <li><a href="{{url_for('register')}}">Register</a></li>
-                <li><a href="{{url_for('login')}}">Login</a></li>
-                <li><a href="">About</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container">
-        <pre></pre>
-        <h1>Home</h1>
-        <pre></pre>
-    </div>
-</body>
-</html>
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <pre></pre>
+    <h1>Home</h1>
+    <pre></pre>
+{% endblock %}
