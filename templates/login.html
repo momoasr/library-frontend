@@ -2,7 +2,7 @@
 {% block title %}Home{% endblock %}
 {% block content %}
 <h1>Login From</h1>
-<form>
+<form action="/login" method="post">
 
     <div class="form-grp">
         <label for="username">Username</label>
@@ -11,8 +11,8 @@
     <pre></pre>
 
     <div class="form-grp">
-        <label for="password1">Password</label>
-        <input type="password" name="password1" class="form-control">
+        <label for="password">Password</label>
+        <input type="password" name="password" class="form-control">
     </div>
     <pre></pre>
 
