@@ -1,27 +1,5 @@
-<!doctype html>
-<html>
-<head>
-<title>Registration</title>
-<link rel="stylesheet" href="/static/style.css">
-</head>
-<body>
-
-    <nav>
-        <div class="wrapper">
-            <ul>
-                <li><a href="{{url_for('home')}}">Home</a></li>
-                <li><a href="">Rental List</a></li>
-                <li><a href="">cart</a></li>
-                <li><a href="">Account</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Log Out</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="container">
-        <h1>Welcome User</h1>
-        
-    </div>
-</body>
-</html>
+{% extends "base.html" %}
+{% block title %}Registration{% endblock %}
+{% block content %}
+<h1>Welcome User</h1>   
+{% endblock %}
